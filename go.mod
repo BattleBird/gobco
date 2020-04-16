@@ -1,4 +1,4 @@
-module github.com/junhwi/gobco
+module github.com/BattleBird/gobco
 
 go 1.13
 
