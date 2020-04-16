@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/junhwi/gobco/html"
-	"github.com/junhwi/gobco/instrument"
+	"github.com/BattleBird/gobco/html"
+	"github.com/BattleBird/gobco/instrument"
 	"os"
 )
 

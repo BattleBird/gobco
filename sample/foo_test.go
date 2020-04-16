@@ -1,7 +1,7 @@
 package sample
 
 import (
-	"github.com/junhwi/gobco"
+	"github.com/BattleBird/gobco"
 	"os"
 	"testing"
 )

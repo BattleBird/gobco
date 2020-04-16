@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/junhwi/gobco"
+	"github.com/BattleBird/gobco"
 )
 
 func TestMain(m *testing.M) {

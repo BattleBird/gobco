@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/junhwi/gobco/instrument"
+	"github.com/BattleBird/gobco/instrument"
 	"log"
 	"os"
 	"os/exec"
