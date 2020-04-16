@@ -29,11 +29,16 @@ func RegisterCov(c *Cov, fileName string) {
 
 func ReportCoverage() {
 
+    var totalBranches = 0
+    var coveredBranches = 0
 	for k, v := range cov {
 		covered, total := calculateCoverage(v)
 		fileName := path.Base(k)
 		fmt.Println(fileName, covered, "/", total)
+		totalBranches += total
+		coveredBranches += covered
 	}
+	fmt.Println("branch coverage in this package is ", coveredBranches, "/", totalBranches)
 }
 
 func ReportProfile(file string) error {
